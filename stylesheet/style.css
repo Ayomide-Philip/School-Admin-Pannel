@@ -12,7 +12,6 @@ div.admin-pannel {
 div.pannel-content {
     height: 100%;
     background-color: green;
-    position: absolute;
 }
 
 div.content {
