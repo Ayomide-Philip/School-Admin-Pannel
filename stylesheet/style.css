@@ -33,6 +33,8 @@ div.pannel-content {
     background-color: green;
     position: fixed;
     height: 100%;
+    display: flex;
+    justify-content: center;
 }
 
 div.content {
