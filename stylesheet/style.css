@@ -48,6 +48,10 @@ div.pannel-content>div>a {
     font-weight: bold;
 }
 
+div.pannel-content>div>a:hover {
+    color: blue;
+}
+
 div.content {
     position: absolute;
     left: 22%;
