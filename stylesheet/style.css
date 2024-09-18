@@ -12,9 +12,15 @@ div.admin-pannel {
 div.pannel-content {
     height: 100%;
     background-color: green;
-    position: fixed;
+    position: absolute;
 }
 
 div.content {
     position: relative;
+}
+
+div.pannel-image>img {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
 }
