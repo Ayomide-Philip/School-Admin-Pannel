@@ -16,11 +16,26 @@ div.nav-bar {
     flex-direction: row;
     justify-content: flex-end;
     align-items: center;
-    padding: 2%;
+    padding: 10px;
     position: fixed;
     width: 100%;
+    right: 0;
+    top: 0px;
 }
 
 div.admin-pannel {
-   
+    display: flex;
+    margin-top: 50px;
+}
+
+div.pannel-content {
+    width: 20%;
+    background-color: green;
+    position: fixed;
+    height: 100%;
+}
+
+div.content {
+    position: absolute;
+    left: 25%;
 }
