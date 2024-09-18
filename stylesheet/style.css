@@ -9,11 +9,18 @@ div.pannel-image>img {
 }
 
 div.nav-bar {
-    margin-bottom: 20px;
     background-color: green;
-    height: 50px;
+    height: 30px;
     color: white;
     display: flex;
     flex-direction: row;
-    
+    justify-content: flex-end;
+    align-items: center;
+    padding: 2%;
+    position: fixed;
+    width: 100%;
+}
+
+div.admin-pannel {
+   
 }
