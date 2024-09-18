@@ -8,3 +8,12 @@ div.pannel-image>img {
     border-radius: 50%;
 }
 
+div.nav-bar {
+    margin-bottom: 20px;
+    background-color: green;
+    height: 50px;
+    color: white;
+    display: flex;
+    flex-direction: row;
+    
+}
