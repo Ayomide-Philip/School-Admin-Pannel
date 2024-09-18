@@ -1,6 +1,7 @@
 body {
     background-color: antiquewhite;
     margin: 0px;
+    width: 100%;
 }
 
 /* div.admin-pannel {
@@ -18,12 +19,17 @@ div.pannel-content {
 }
 
 div.content {
-    position: absolute;
-    left: 50%;
+    position: sticky;
 }
 
 div.pannel-image>img {
     width: 200px;
     height: 200px;
     border-radius: 50%;
+}
+
+div.nav-bar {
+    background-color: green;
+    color: white;
+    padding: 2%;
 }
