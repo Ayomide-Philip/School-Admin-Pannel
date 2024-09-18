@@ -4,22 +4,26 @@ body {
     width: 100%;
 }
 
-/* div.admin-pannel {
+div.admin-pannel {
     display: grid;
     grid-template-columns: 0.2fr 1fr;
-    gap: 1%;
+    grid-template-rows: 100%;
+    /* gap: 1%; */
     height: 100%;
-} */
+}
 
 div.pannel-content {
     height: 100%;
     background-color: green;
-    position: fixed;
+    /* position: fixed; */
     padding: 2%;
+    display: flex;
 }
 
 div.content {
-    position: sticky;
+    display: flex;
+    width: 100%;
+    flex-direction: column;
 }
 
 div.pannel-image>img {
