@@ -1,0 +1,10 @@
+body {
+    margin: 0px;
+}
+
+div.pannel-image>img {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+}
+
