@@ -15,7 +15,7 @@ div.admin-pannel {
 div.pannel-content {
     height: 100%;
     background-color: green;
-    /* position: fixed; */
+
     padding: 2%;
     display: flex;
 }
@@ -35,5 +35,7 @@ div.pannel-image>img {
 div.nav-bar {
     background-color: green;
     color: white;
-    padding: 2%;
+    height: 50px;
+    position: fixed;
+    width: 100%;
 }
