@@ -1,0 +1,9 @@
+body {
+    background-color: antiquewhite;
+}
+
+div.admin-pannel {
+    display: grid;
+    grid-template-columns: 0.2fr 1fr;
+    gap: 1%;
+}
