@@ -3,19 +3,23 @@ body {
     margin: 0px;
 }
 
-div.admin-pannel {
+/* div.admin-pannel {
     display: grid;
     grid-template-columns: 0.2fr 1fr;
     gap: 1%;
-}
+    height: 100%;
+} */
 
 div.pannel-content {
     height: 100%;
     background-color: green;
+    position: fixed;
+    padding: 2%;
 }
 
 div.content {
-    position: relative;
+    position: absolute;
+    left: 50%;
 }
 
 div.pannel-image>img {
