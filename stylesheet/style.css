@@ -3,13 +3,14 @@ body {
 }
 
 div.pannel-image>img {
+    margin-top: 4%;
     width: 100px;
     height: 100px;
     border-radius: 50%;
 }
 
 div.nav-bar {
-    background-color: green;
+    background-color: rgb(51, 71, 51);
     height: 30px;
     color: white;
     display: flex;
@@ -21,11 +22,12 @@ div.nav-bar {
     width: 100%;
     right: 0;
     top: 0px;
+    z-index: 1;
 }
 
 div.admin-pannel {
     display: flex;
-    margin-top: 50px;
+    margin-top: 60px;
 }
 
 div.pannel-content {
@@ -46,6 +48,10 @@ div.pannel-content>div>a {
     text-transform: uppercase;
     font-family: cursive;
     font-weight: bold;
+}
+
+div.pannel-content>div {
+    margin-bottom: 2%;
 }
 
 div.pannel-content>div>a:hover {
