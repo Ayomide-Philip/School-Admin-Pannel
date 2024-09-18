@@ -10,13 +10,13 @@ div.pannel-image>img {
     border-radius: 50%;
 }
 
-div.nav-bar {
+div.nav-bar>div {
     background-color: rgb(51, 71, 51);
     height: 30px;
     color: white;
     display: flex;
     flex-direction: row;
-    justify-content: flex-end;
+    justify-content: space-between;
     align-items: center;
     padding: 15px;
     position: fixed;
@@ -67,4 +67,10 @@ div.pannel-content>div>a:hover {
 div.content {
     position: absolute;
     left: 22%;
+}
+
+div.admin {
+    justify-items: flex-start;
+    margin-left: 30px;
+    font-size: x-large;
 }
