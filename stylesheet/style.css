@@ -1,9 +1,20 @@
 body {
     background-color: antiquewhite;
+    margin: 0px;
 }
 
 div.admin-pannel {
     display: grid;
     grid-template-columns: 0.2fr 1fr;
     gap: 1%;
+}
+
+div.pannel-content {
+    height: 100%;
+    background-color: green;
+    position: fixed;
+}
+
+div.content {
+    position: relative;
 }
