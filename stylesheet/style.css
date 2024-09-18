@@ -16,7 +16,7 @@ div.nav-bar {
     flex-direction: row;
     justify-content: flex-end;
     align-items: center;
-    padding: 10px;
+    padding: 15px;
     position: fixed;
     width: 100%;
     right: 0;
@@ -39,5 +39,5 @@ div.pannel-content {
 
 div.content {
     position: absolute;
-    left: 25%;
+    left: 22%;
 }
