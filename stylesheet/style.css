@@ -80,6 +80,7 @@ div.admin {
 .log-out>a {
     text-decoration: none;
     color: white;
+    font-size: x-large;
 }
 
 .log-out>a:hover {
@@ -93,4 +94,3 @@ div.time {
     justify-content: space-between;
     padding: 1%;
 }
-
