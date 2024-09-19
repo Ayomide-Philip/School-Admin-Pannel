@@ -84,3 +84,7 @@ div.admin {
 .log-out>a:hover {
     color: black;
 }
+
+div.time{
+    display: flex;
+}
