@@ -24,9 +24,10 @@ function getTime() {
 const date = new Date().getHours();
 console.log(date);
 
-if (0 <= date < 12) {
-  console.log("True");
-} else if (12 <= date <= 18) {
-  console.log("true");
-} else if (19 <= date <= 23) {
+if (0 <= date && date <= 11) {
+  document.getElementById("day-time").innerHTML = `Good Morning Admin`;
+} else if (12 <= date && date <= 18) {
+  document.getElementById("day-time").innerHTML = `Good Afternoon Admin`;
+} else if (19 <= date && date <= 23) {
+  document.getElementById("day-time").innerHTML = `Good Evening Admin`;
 }
