@@ -20,3 +20,4 @@ function getTime() {
     "current-time"
   ).innerHTML = `${new Date().getHours()}:${minutes}:${seconds}`;
 }
+
