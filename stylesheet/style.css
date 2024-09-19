@@ -75,3 +75,8 @@ div.admin {
     font-size: x-large;
     text-transform: uppercase;
 }
+
+.log-out>a {
+    text-decoration: none;
+    color: white;
+}
