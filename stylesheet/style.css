@@ -66,8 +66,8 @@ div.pannel-content>div>a:hover {
 
 div.content {
     position: absolute;
-    left: 22%;
-    width: 78%;
+    left: 20%;
+    width: 80%;
 }
 
 div.admin {
@@ -91,4 +91,5 @@ div.time {
     font-size: xx-large;
     align-items: center;
     justify-content: space-between;
+    padding: 1%;
 }
