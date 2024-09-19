@@ -95,8 +95,11 @@ div.time {
     padding: 1%;
     font-family: "Roboto", sans-serif;
 }
-div.chart{
+
+div.chart {
     display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 #myChart {
