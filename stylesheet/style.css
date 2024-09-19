@@ -95,3 +95,8 @@ div.time {
     padding: 1%;
     font-family: "Roboto", sans-serif;
 }
+
+div.chart {
+    width: 100%;
+    height: 30vh;
+}
