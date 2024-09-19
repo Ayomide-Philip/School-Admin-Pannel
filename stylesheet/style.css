@@ -11,7 +11,7 @@ div.pannel-image>img {
 }
 
 div.nav-bar>div {
-    background-color: rgb(51, 71, 51);
+    background-color: rgb(78, 177, 78);
     height: 30px;
     color: white;
     display: flex;
@@ -79,4 +79,8 @@ div.admin {
 .log-out>a {
     text-decoration: none;
     color: white;
+}
+
+.log-out>a:hover {
+    color: black;
 }
