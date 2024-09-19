@@ -41,13 +41,31 @@
                 </div>
                 <div class="content-container">
                     <div class="chart">
-
+                        <canvas id="myChart"></canvas>
                     </div>
                 </div>
             </div>
         </div>
     </div>
     <script src="./script/script.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <script>
+        var myChart = document.getElementById("myChart").getContext("2d");
+
+        new Chart(myChart, {
+            type: "bar",
+            data: {
+                labels: ["New Student", "Student Admission", "Testimonials", "Green", "Purple", "Orange"],
+                datasets: [
+                    {
+                        label: "# of Votes",
+                        data: [12, 19, 3, 5, 2, 3],
+                        borderWidth: 1,
+                    },
+                ],
+            },
+        });
+    </script>
 </body>
 
 </html>
