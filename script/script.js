@@ -1,3 +1,5 @@
+console.log(name);
+
 setInterval(getTime, 1000);
 
 function getTime() {
@@ -22,7 +24,6 @@ function getTime() {
 }
 
 const date = new Date().getHours();
-console.log(date);
 
 if (0 <= date && date <= 11) {
   document.getElementById("day-time").innerHTML = `Good Morning Admin`;
@@ -32,3 +33,23 @@ if (0 <= date && date <= 11) {
   document.getElementById("day-time").innerHTML = `Good Evening Admin`;
 }
 
+document.addEventListener("DOMContentLoaded", (event) => {
+  console.log(event);
+  var myChart = document.getElementById("myChart").getContext("2d");
+
+  new Chart(myChart, {
+    type: "bar",
+    data: {
+      labels: ["Contacts", "Student Admission", "Testimonials"],
+      datasets: [
+        {
+          label: "School Statitics",
+          data: [12, 19, 3],
+          borderWidth: 1,
+          backgroundColor: "white",
+          hoverBackgroundColor: "green",
+        },
+      ],
+    },
+  });
+});
