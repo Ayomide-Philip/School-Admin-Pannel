@@ -31,3 +31,4 @@ if (0 <= date && date <= 11) {
 } else if (19 <= date && date <= 23) {
   document.getElementById("day-time").innerHTML = `Good Evening Admin`;
 }
+
