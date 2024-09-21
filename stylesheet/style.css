@@ -118,3 +118,20 @@ div.main-content {
 div.number-item-image>img {
     width: 30px;
 }
+
+div.number-of-message {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 2%;
+    padding: 2%;
+}
+
+div.number-items {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100px;
+    border: 2px solid;
+    background-color: white;
+    
+}
