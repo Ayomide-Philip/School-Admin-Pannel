@@ -137,8 +137,17 @@ div.number-items {
     font-family: "Roboto", sans-serif;
 }
 
-div.number{
+div.number {
     display: flex;
     flex-direction: column;
     width: 80%;
+    font-size: xx-large;
+    font-family: "Inria Sans", sans-serif;
+    font-weight: 500;
+}
+
+div.total-number {
+    text-align: center;
+    color: green;
+    font-weight: bolder;
 }
