@@ -46,7 +46,7 @@ document.addEventListener("DOMContentLoaded", (event) => {
           label: "School Statitics",
           data: [12, 19, 3],
           borderWidth: 1,
-          backgroundColor: ["white", ""],
+          backgroundColor: ["purple", "grey", "black"],
           hoverBackgroundColor: "green",
         },
       ],
