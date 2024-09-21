@@ -139,4 +139,6 @@ div.number-items {
 
 div.number{
     display: flex;
+    flex-direction: column;
+    width: 80%;
 }
