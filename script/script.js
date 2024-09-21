@@ -38,7 +38,7 @@ document.addEventListener("DOMContentLoaded", (event) => {
   var myChart = document.getElementById("myChart").getContext("2d");
 
   new Chart(myChart, {
-    type: "bar",
+    type: "pie",
     data: {
       labels: ["Contacts", "Student Admission", "Testimonials"],
       datasets: [
@@ -46,7 +46,7 @@ document.addEventListener("DOMContentLoaded", (event) => {
           label: "School Statitics",
           data: [12, 19, 3],
           borderWidth: 1,
-          backgroundColor: "white",
+          backgroundColor: ["white", ""],
           hoverBackgroundColor: "green",
         },
       ],
