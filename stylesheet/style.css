@@ -114,3 +114,7 @@ div.main-content {
 .main-content>h1 {
     text-align: center;
 }
+
+div.number-item-image>img {
+    width: 30px;
+}
