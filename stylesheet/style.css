@@ -134,4 +134,9 @@ div.number-items {
     border: 2px solid;
     background-color: white;
     border-radius: 10px;
+    font-family: "Roboto", sans-serif;
+}
+
+div.number{
+    display: flex;
 }
