@@ -187,3 +187,20 @@ div.testimonial-name {
 div.content-container {
     padding: 2%;
 }
+
+div.button>a {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 70px;
+    height: 40px;
+    color: white;
+    background-color: green;
+    margin-right: 2%;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+div.button {
+    display: flex;
+}
