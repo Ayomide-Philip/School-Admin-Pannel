@@ -103,8 +103,11 @@ div.chart {
     align-items: center;
 }
 
-#myChart {
+#myChart,
+#student-class,
+#jss1-student {
     height: 50vh !important;
+    width: 50%;
 }
 
 
