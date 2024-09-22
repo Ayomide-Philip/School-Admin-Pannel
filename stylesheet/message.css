@@ -177,4 +177,5 @@ div.message-action>a {
     color: white;
     background-color: green;
     text-decoration: none;
+    border-radius: 5px;
 }
