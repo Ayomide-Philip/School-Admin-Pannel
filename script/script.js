@@ -74,3 +74,22 @@ document.addEventListener("DOMContentLoaded", (event) => {
   });
 });
 
+document.addEventListener("DOMContentLoaded", (event) => {
+  var studentChart = document.getElementById("jss1-student").getContext("2d");
+
+  new Chart(studentChart, {
+    type: "bar",
+    data: {
+      labels: ["JSS1", "JSS2", "SS1", "SS2"],
+      datasets: [
+        {
+          label: "Number of Student Applied ",
+          data: [12, 19, 3, 5],
+          borderWidth: 1,
+          backgroundColor: ["#3c3c3c", "#616161", "#787878", "#b4b4b4"],
+          hoverBackgroundColor: "green",
+        },
+      ],
+    },
+  });
+});
