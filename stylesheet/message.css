@@ -160,6 +160,9 @@ div.content-container {
 
 div.message-title {
     font-size: x-large;
+    font-weight: bold;
 }
 
-div
+div.messsage-word {
+    font-size: large;
+}
