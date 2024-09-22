@@ -181,7 +181,7 @@ div.testimonial-message {
 }
 
 div.testimonial-name {
-    font-size: larger;
+    font-size: x-large;
 }
 
 div.content-container {
@@ -199,6 +199,12 @@ div.button>a {
     margin-right: 2%;
     text-decoration: none;
     border-radius: 5px;
+    border: 2px solid;
+}
+
+div.button>a:hover {
+    color: green;
+    background-color: white;
 }
 
 div.button {
