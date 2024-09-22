@@ -149,6 +149,7 @@ div.message {
     background-color: white;
     border-radius: 10px;
     flex-direction: column;
+    margin-bottom: 2%;
 }
 
 div.content-container {
