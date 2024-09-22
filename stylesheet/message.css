@@ -139,3 +139,22 @@ div.total-number {
     color: green;
     font-weight: bolder;
 }
+
+div.message {
+    display: flex;
+    font-family: "Inria Sans", sans-serif;
+    font-weight: 500;
+    width: 80%;
+    padding: 2%;
+    background-color: white;
+    border-radius: 10px;
+    flex-direction: column;
+}
+
+div.content-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
