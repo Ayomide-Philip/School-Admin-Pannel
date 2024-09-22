@@ -155,6 +155,7 @@ div.testimonial-item {
     margin-bottom: 2%;
     border-radius: 10px;
     font-family: "Inria Sans", sans-serif;
+    flex-direction: column;
 }
 
 
@@ -177,12 +178,6 @@ div.testimonial-message {
     justify-self: center;
     align-self: center;
 
-}
-
-div.testimonial-name {
-    justify-self: flex-start;
-    align-self: flex-start;
-    width: 80%;
 }
 
 div.testimonial-name {
