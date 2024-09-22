@@ -80,14 +80,28 @@ document.addEventListener("DOMContentLoaded", (event) => {
   new Chart(studentChart, {
     type: "line",
     data: {
-      labels: ["JSS1"],
+      labels: [
+        "January",
+        "February",
+        "March",
+        "April",
+        "May",
+        "June",
+        "July",
+        "August",
+        "September",
+        "October",
+        "November",
+        "December",
+      ],
       datasets: [
         {
-          label: "Number of Student Applied ",
-          data: [12, 19, 3, 5],
+          label: "JSS1 Birthday Month",
+          data: [10, 30, 15, 23, 35, 54, 26, 43, 23, 43, 56, 53],
           borderWidth: 1,
-          backgroundColor: ["#3c3c3c", "#616161", "#787878", "#b4b4b4"],
+          backgroundColor: "rgb(75, 192, 192)",
           hoverBackgroundColor: "green",
+          borderColor: "rgb(75, 192, 192)",
         },
       ],
     },
