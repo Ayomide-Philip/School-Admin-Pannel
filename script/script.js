@@ -75,7 +75,7 @@ document.addEventListener("DOMContentLoaded", (event) => {
 });
 
 document.addEventListener("DOMContentLoaded", (event) => {
-  var studentChart = document.getElementById("jss1-student").getContext("2d");
+  var studentChart = document.getElementById("new-student").getContext("2d");
 
   new Chart(studentChart, {
     type: "line",
@@ -96,7 +96,7 @@ document.addEventListener("DOMContentLoaded", (event) => {
       ],
       datasets: [
         {
-          label: "JSS1 Birthday Month",
+          label: "All Student Birthday Month",
           data: [10, 30, 15, 23, 35, 54, 26, 43, 23, 43, 56, 53],
           borderWidth: 1,
           backgroundColor: "rgb(75, 192, 192)",
