@@ -154,7 +154,41 @@ div.testimonial-item {
     padding: 1%;
     margin-bottom: 2%;
     border-radius: 10px;
-    animation: zoomInDown;
-    animation-duration: 4s;
-    animation-delay: 2s;
+    font-family: "Inria Sans", sans-serif;
+}
+
+
+.testimonial>h1 {
+    font-weight: 700;
+}
+
+div.testimonial-message>p {
+    font-size: larger;
+    font-weight: 300;
+}
+
+
+div.testimonial-message {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 1%;
+    justify-self: center;
+    align-self: center;
+
+}
+
+div.testimonial-name {
+    justify-self: flex-start;
+    align-self: flex-start;
+    width: 80%;
+}
+
+div.testimonial-name {
+    font-size: larger;
+}
+
+div.content-container {
+    padding: 2%;
 }
