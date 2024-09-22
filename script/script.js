@@ -57,5 +57,6 @@ document.addEventListener("DOMContentLoaded", (event) => {
 
 document.addEventListener("DOMContentLoaded",(event)=>{
   var studentChart = document.getElementById("student-class").getContext("2d");
-  
+
+  new Chart(studentChart, )
 })
