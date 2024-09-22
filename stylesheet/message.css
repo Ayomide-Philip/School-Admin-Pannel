@@ -169,7 +169,12 @@ div.messsage-word {
 
 div.message-action>a {
     width: 70px;
-    height: 50px;
+    height: 40px;
     border: 2px solid;
     display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    background-color: green;
+    text-decoration: none;
 }
