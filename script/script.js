@@ -63,13 +63,14 @@ document.addEventListener("DOMContentLoaded", (event) => {
       labels: ["JSS1", "JSS2", "SS1", "SS2"],
       datasets: [
         {
-          label: "School Statitics",
+          label: "New Student Statitics",
           data: [12, 19, 3, 5],
           borderWidth: 1,
-          backgroundColor: ["#3c3c3c", "#616161", "#787878",""],
+          backgroundColor: ["#3c3c3c", "#616161", "#787878", "#b4b4b4"],
           hoverBackgroundColor: "green",
         },
       ],
     },
   });
 });
+
