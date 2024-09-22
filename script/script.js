@@ -78,9 +78,9 @@ document.addEventListener("DOMContentLoaded", (event) => {
   var studentChart = document.getElementById("jss1-student").getContext("2d");
 
   new Chart(studentChart, {
-    type: "bar",
+    type: "line",
     data: {
-      labels: ["JSS1", "JSS2", "SS1", "SS2"],
+      labels: ["JSS1"],
       datasets: [
         {
           label: "Number of Student Applied ",
