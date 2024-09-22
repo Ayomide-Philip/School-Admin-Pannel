@@ -54,9 +54,22 @@ document.addEventListener("DOMContentLoaded", (event) => {
   });
 });
 
-
-document.addEventListener("DOMContentLoaded",(event)=>{
+document.addEventListener("DOMContentLoaded", (event) => {
   var studentChart = document.getElementById("student-class").getContext("2d");
 
-  new Chart(studentChart, )
-})
+  new Chart(studentChart, {
+    type: "bar",
+    data: {
+      labels: ["JSS1", "JSS2", "SS1", "SS2"],
+      datasets: [
+        {
+          label: "School Statitics",
+          data: [12, 19, 3, 5],
+          borderWidth: 1,
+          backgroundColor: ["#3c3c3c", "#616161", "#787878",""],
+          hoverBackgroundColor: "green",
+        },
+      ],
+    },
+  });
+});
