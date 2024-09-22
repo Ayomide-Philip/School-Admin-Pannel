@@ -166,6 +166,7 @@ div.message-title {
 
 div.messsage-word {
     font-size: large;
+    margin-bottom: 1%;
 }
 
 div.message-action>a {
