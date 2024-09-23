@@ -100,6 +100,7 @@ div.time {
 h1 {
     text-align: center;
     font-family: "Roboto", sans-serif;
+    margin: 0px;
 }
 
 div.number-item-image>img {
@@ -226,6 +227,6 @@ input[type="submit"]:hover {
     color: red;
 }
 
-p{
+p {
     margin: 0px;
 }
