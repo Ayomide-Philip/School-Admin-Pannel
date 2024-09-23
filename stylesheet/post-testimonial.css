@@ -150,3 +150,14 @@ div.content-container {
     justify-content: center;
     align-items: center;
 }
+
+input[type="text"] {
+    width: 100%;
+    border: none;
+    border-bottom: 1px solid black;
+    outline: none;
+}
+
+input[type="text"]:focus {
+    border-bottom: 2px solid green;
+}
