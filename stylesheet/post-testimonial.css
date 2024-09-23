@@ -156,8 +156,15 @@ input[type="text"] {
     border: none;
     border-bottom: 1px solid black;
     outline: none;
+    font-size: larger;
 }
 
 input[type="text"]:focus {
     border-bottom: 2px solid green;
 }
+
+input[type="text"]:focus::placeholder {
+    color: transparent;
+}
+
+sel
