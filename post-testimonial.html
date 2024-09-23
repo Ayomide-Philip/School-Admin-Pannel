@@ -52,10 +52,11 @@
                         <form action="#">
                             <div class="input">
                                 <input type="text" name="name" id="name" placeholder="Please Input You Full Name">
+                                <p id="name-error" class="error"></p>
                             </div>
                             <div class="input">
                                 <label for="testimonial">Pick the one That Best Describe you:</label>
-                                <select name="testimonial" id="testimonial" required>
+                                <select name="testimonial-person" id="testimonial-person" required>
                                     <option value="Parent">Parent</option>
                                     <option value="Student">Student</option>
                                 </select>
@@ -65,7 +66,7 @@
                                     placeholder="Input your Testimonial about the school"></textarea>
                             </div>
                             <div class="btn">
-                                <input type="submit" value="Submit">
+                                <input type="submit" value="Submit" id="btn">
                             </div>
                         </form>
                     </div>
