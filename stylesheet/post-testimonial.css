@@ -184,6 +184,7 @@ div.input {
 
 label[for="testimonial"] {
     margin-bottom: 2%;
+    font-size: large;
 }
 
 textarea {
