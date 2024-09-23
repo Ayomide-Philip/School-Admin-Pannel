@@ -138,3 +138,15 @@ div.total-number {
     color: green;
     font-weight: bolder;
 }
+
+div.form {
+    width: 50%;
+    background-color: white;
+    padding: 2%;
+}
+
+div.content-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
