@@ -195,3 +195,27 @@ textarea {
 textarea:focus {
     border: 2px solid green;
 }
+
+div.btn {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+}
+
+input[type="submit"] {
+    width: 100px;
+    height: 40px;
+    background-color: white;
+    color: green;
+    border: 2px solid green;
+    border-radius: 5px;
+    font-family: cursive;
+    font-size: large;
+    cursor: pointer;
+}
+
+input[type="submit"]:hover {
+    color: white;
+    background-color: green;
+}
