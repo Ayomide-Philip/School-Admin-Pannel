@@ -221,3 +221,11 @@ input[type="submit"]:hover {
     color: white;
     background-color: green;
 }
+
+.error {
+    color: red;
+}
+
+p{
+    margin: 0px;
+}
