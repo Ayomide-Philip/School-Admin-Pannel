@@ -210,3 +210,8 @@ div.button>a:hover {
 div.button {
     display: flex;
 }
+
+div.type {
+    font-size: larger;
+    margin: 1%;
+}
