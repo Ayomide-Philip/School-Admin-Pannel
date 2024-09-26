@@ -166,6 +166,7 @@ div.testimonial-item {
 div.testimonial-message>p {
     font-size: larger;
     font-weight: 300;
+    margin: 0px;
 }
 
 
