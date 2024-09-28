@@ -166,3 +166,16 @@ div.principal-officer {
     padding: 2%;
 }
 
+div.principal-officer-name {
+    font-size: larger;
+    font-family: "Inria Sans", sans-serif;
+    font-weight: bold;
+    text-transform: capitalize;
+}
+
+div.principal-officer-social-media {
+    display: flex;
+    font-size: larger;
+    font-family: "Inria Sans", sans-serif;
+    font-weight: bolder;
+}
