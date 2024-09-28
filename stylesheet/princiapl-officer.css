@@ -160,6 +160,9 @@ div.content-container {
 }
 
 
-div.principal-officer{
-    
+div.principal-officer {
+    background-color: white;
+    width: 80%;
+    padding: 2%;
 }
+
