@@ -174,7 +174,7 @@ div.principal-officer-name {
 }
 
 div.principal-officer-message {
-    font-size: large;
+    font-size: medium;
     font-family: "Inria Sans", sans-serif;
     font-weight: 400;
 }
@@ -190,4 +190,15 @@ div.principal-officer-social-media {
 div.principal-officer-social-media>div>a>img {
     width: 50px;
     height: 50px;
+}
+
+div.principal-officer-position {
+    font-size: larger;
+    font-family: "Inria Sans", sans-serif;
+    font-weight: 700;
+    color: green;
+}
+
+div.principal-officer-social-media>div>a>img:hover {
+    padding-top: 20px;
 }
