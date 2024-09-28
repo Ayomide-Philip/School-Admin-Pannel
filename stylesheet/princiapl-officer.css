@@ -167,10 +167,16 @@ div.principal-officer {
 }
 
 div.principal-officer-name {
-    font-size: larger;
+    font-size: x-large;
     font-family: "Inria Sans", sans-serif;
     font-weight: bold;
     text-transform: capitalize;
+}
+
+div.principal-officer-message {
+    font-size: large;
+    font-family: "Inria Sans", sans-serif;
+    font-weight: 400;
 }
 
 div.principal-officer-social-media {
@@ -178,4 +184,10 @@ div.principal-officer-social-media {
     font-size: larger;
     font-family: "Inria Sans", sans-serif;
     font-weight: bolder;
+    margin-top: 2%;
+}
+
+div.principal-officer-social-media>div>a>img {
+    width: 50px;
+    height: 50px;
 }
