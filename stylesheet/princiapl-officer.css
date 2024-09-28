@@ -192,6 +192,8 @@ div.principal-officer-social-media>div>a>img {
     height: 50px;
 }
 
+
+
 div.principal-officer-position {
     font-size: larger;
     font-family: "Inria Sans", sans-serif;
@@ -200,5 +202,6 @@ div.principal-officer-position {
 }
 
 div.principal-officer-social-media>div>a>img:hover {
-    padding-top: 20px;
+    bottom: 20px;
+    position: relative;
 }
